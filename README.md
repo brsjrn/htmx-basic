@@ -2,6 +2,8 @@
 
 Test de <a href="https://htmx.org/" target="_blank">HTMX</a> pour un comportement de type SPA avec chargement de contenu, mise à jour de l'url et gestion de l'historique des urls.
 
+Voir la <a href="https://htmx-basic.netlify.app" target="_blank">démo</a>.
+
 ## Description
 
 Les pages (index.html, page1.html, ...) ne contiennent pas de contenu, seulement le squelette de base d'une page HTML5 ainsi qu'un menu et une div vide servant à accueillir du contenu.
