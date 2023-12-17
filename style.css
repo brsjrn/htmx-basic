@@ -1,0 +1,29 @@
+.nav-item {
+    margin-left: 20px;
+}
+
+#content {
+    position: relative;
+    padding-top: 30px;
+}
+
+a {
+    cursor: pointer;
+}
+
+.animated-content {
+    position: relative;
+    right: 0px;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.animated-content.htmx-added {
+    right: 50px;
+    opacity: 0;
+}
+
+#content.htmx-swapping .animated-content {
+    right: -50px;
+    opacity: 0;
+}
